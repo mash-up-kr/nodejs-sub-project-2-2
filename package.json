@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-sub-project-2",
+  "version": "1.0.0",
+  "description": "서버 node팀 2차미션 npm 패키지 배포 (2팀 미니게임천국)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mash-up-kr/nodejs-sub-project-2-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mash-up-kr/nodejs-sub-project-2-2/issues"
+  },
+  "bin": {
+      "bem-game": "bin/bem-game/bem.js"
+  },
+  "files": [
+      "bem-game/bem"
+  ],
+  "homepage": "https://github.com/mash-up-kr/nodejs-sub-project-2-2#readme",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "readline-sync": "^1.4.10"
+  }
+}
