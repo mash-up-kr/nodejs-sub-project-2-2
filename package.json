@@ -18,11 +18,13 @@
   },
   "bin": {
     "bem-game": "bin/bem-game/bem.js",
-    "base-ball": "bin/number-baseball/baseball.js"
+    "base-ball": "bin/number-baseball/baseball.js",
+    "rcp": "bin/rock-scissors-paper/rock-scissors-paper.js"
   },
   "files": [
     "bem-game/bem",
-    "number-baseball/baseball"
+    "number-baseball/baseball",
+    "rock-scissors-paper/rock-scissors-paper"
   ],
   "homepage": "https://github.com/mash-up-kr/nodejs-sub-project-2-2#readme",
   "dependencies": {
