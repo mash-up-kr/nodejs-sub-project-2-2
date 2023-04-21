@@ -1,4 +1,6 @@
-import stories from "./stories.json";
+// const stories = require("./stories.json");
+// const prompts = require("prompts");
+import stories from "./stories.js";
 import prompts from "prompts";
 
 export const TextAdventures = async () => {
