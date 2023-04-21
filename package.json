@@ -1,6 +1,6 @@
 {
   "name": "@mash-up/mini-name-cli",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "서버 node팀 2차미션 npm 패키지 배포 (2팀 미니게임천국)",
   "main": "bin/index.js",
   "scripts": {
@@ -9,13 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mash-up-kr/nodejs-sub-project-2-2.git"
+    "url": "https://github.com/mash-up-kr/nodejs-sub-project-2-2"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
-  "keywords": [],
-  "author": "mash-up-node",
+  "keywords": [
+    "minigame",
+    "game",
+    "game-cli",
+    "game-select",
+    "mash-up",
+    "mash-up-node"
+  ],
+  "author": "https://github.com/JonghunAn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mash-up-kr/nodejs-sub-project-2-2/issues"
