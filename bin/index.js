@@ -1,14 +1,11 @@
 // export { TextAdventures } from "./text-adventures";
-import { Bem } from "./bem-game/bem";
-import { BaseBall } from "./number-baseball/baseball";
-import { RockScissorsPaper } from "./rock-scissors-paper/rock-scissors-paper";
-import { TextAdventures } from "./text-adventures/index";
-// export { TextAdventures } from "./text-adventures/index";
-// export { Bem } from "./bem-game/bem";
-// export { BaseBall } from "./number-baseball/baseball";
-// export { RockScissorsPaper } from "./rock-scissors-paper/rock-scissors-paper";
-export const Games = async () => {
-  const readline = require("readline");
+import { Bem } from "./bem-game/bem.js";
+import { BaseBall } from "./number-baseball/baseball.js";
+import { RockScissorsPaper } from "./rock-scissors-paper/rock-scissors-paper.js";
+import { TextAdventures } from "./text-adventures/index.js";
+import readline from "readline";
+
+const Games = async () => {
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
@@ -31,3 +28,5 @@ export const Games = async () => {
     }
   );
 };
+
+Games();
