@@ -4,7 +4,8 @@
   "description": "서버 node팀 2차미션 npm 패키지 배포 (2팀 미니게임천국)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
   },
   "repository": {
     "type": "git",
