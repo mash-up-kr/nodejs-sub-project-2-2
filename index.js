@@ -24,3 +24,5 @@ export const Games = async () => {
     }
   );
 };
+
+export default Games;
