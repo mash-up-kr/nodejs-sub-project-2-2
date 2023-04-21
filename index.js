@@ -1,7 +1,4 @@
-import { Bem } from "../bem-game/bem";
-import { BaseBall } from "../number-baseball/baseball";
-import { RockScissorsPaper } from "../rock-scissors-paper/rock-scissors-paper";
-import { TextAdventures } from "../text-adventures";
+import { Bem, BaseBall, RockScissorsPaper, TextAdventures } from "./bin";
 
 export const Games = async () => {
   const readline = require("readline");
