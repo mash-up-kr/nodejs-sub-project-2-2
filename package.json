@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-sub-project-2",
+  "name": "@mash-up/mini-name-cli",
   "version": "1.0.0",
   "description": "서버 node팀 2차미션 npm 패키지 배포 (2팀 미니게임천국)",
   "main": "index.js",
@@ -11,21 +11,24 @@
     "type": "git",
     "url": "git+https://github.com/mash-up-kr/nodejs-sub-project-2-2.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [],
-  "author": "",
+  "author": "mash-up-node",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mash-up-kr/nodejs-sub-project-2-2/issues"
   },
   "bin": {
+    "game-select": "bin/index.js",
     "bem-game": "bin/bem-game/bem.js",
     "base-ball": "bin/number-baseball/baseball.js",
-    "rcp": "bin/rock-scissors-paper/rock-scissors-paper.js"
+    "rcp": "bin/rock-scissors-paper/rock-scissors-paper.js",
+    "text-adventures": "bin/text-adventures/text-adventures.js"
   },
   "files": [
-    "bem-game/bem",
-    "number-baseball/baseball",
-    "rock-scissors-paper/rock-scissors-paper"
+    "bin"
   ],
   "homepage": "https://github.com/mash-up-kr/nodejs-sub-project-2-2#readme",
   "dependencies": {
